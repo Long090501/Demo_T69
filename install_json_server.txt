@@ -1,0 +1,8 @@
+- B1: Tải nodejs
+- B2: Tạo thư mục mới (đặt tên là "json_server" cho dễ hiểu) trong thư mục source code
+- B3: Trong terminal truy cập vào thư mục "json_server" và gõ lệnh "npm init" -> file "package.json" được tạo ra
+- B4: Tiếp tục gõ lệnh "npm i json-server" để tiến hành cài đặt json_server
+- B5: Tạo file "db.json" để lưu trữ dữ liệu mẫu 
+- B6: Trong phần script của file package.json, thêm dòng:
+         "start": "json-server --watch db.json"
+- B7: Trong termail gõ lênh "npm start" để khởi động json_server -> nhận được URL hiển thị dữ liệu trong file "db.json"
