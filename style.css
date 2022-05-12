@@ -1,0 +1,32 @@
+h1 {
+    font-size: 36px;
+    color: red;
+}
+
+li {
+    font-size: 18px;
+}
+
+button {
+    color: white;
+    background-color: black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: red;
+    
+}
+
+input {
+    width: 200px;
+    height: 25px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+input:focus {
+    background-color: rgb(127, 208, 162);
+  }
