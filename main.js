@@ -122,13 +122,3 @@ function deleteData(member_id) {
                alert("Đã xóa thành công!");
           })
 }
-
-
-
-
-
-
-
-
-
-
